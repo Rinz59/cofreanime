@@ -1,0 +1,54 @@
+/* Estilos específicos para esta página */
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.portada {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.portada img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.portada-info {
+    margin-top: 20px;
+}
+
+.video-options {
+    flex: 1;
+}
+
+.video-options h2 {
+    margin-bottom: 10px;
+}
+
+.video-options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.video-options li {
+    margin-bottom: 10px;
+}
+
+.video-options a {
+    text-decoration: none;
+    color: #ffe600;
+    font-size: 16px;
+}
+
+.video-options a:hover {
+    color: #ff5f00;
+}

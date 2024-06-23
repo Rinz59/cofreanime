@@ -1,0 +1,17 @@
+/* Estilos adicionales para el pie de página */
+.footer {
+    background-color: #2143a080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    min-height: 90px; /* Establece una altura mínima */
+    max-height: auto; /* Establece una altura máxima */
+    overflow-y: auto; /* Agrega barras de desplazamiento vertical si el contenido es demasiado grande */
+    margin-top: 20px; /* Agrega un margen superior para separar el pie de página del contenido */
+    border: 5px solid rgba(71, 32, 163, 0.301); /* Add a 2px solid white border */
+}
+/* Para asegurar que el contenido no se superponga con el pie de página */
+.content {
+    padding-bottom: 70px; /* Añade un relleno inferior de 70px al contenido, para evitar que el contenido se solape con el pie de página */
+}

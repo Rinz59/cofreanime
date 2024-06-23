@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/IMAGEN BOX.css">
+    <link rel="stylesheet" href="CSS/ENCABEZADO.css">
+    <link rel="stylesheet" href="CSS/PAGINACION NUMERICA.css">
+    <link rel="stylesheet" href="CSS/PIE DE PAGINA.css">
+    <link rel="stylesheet" href="IMAGENES FONDO BACKGROUND/FONDO 1.jpg">
+    <link rel="stylesheet" href="CSS/BUSCADOR LATERAL.css">
+    <link rel="stylesheet" href="CSS/FONDO WEB.css">
+    <link rel="stylesheet" href="CSSvideo/ICONO.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logotipo">RINZ</a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"><img src="ICONO/pngwing.com.png" alt="Menú"></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="https://youtu.be/ORE_2woEpeA?si=fTRfLnxYyqvpHNPb">YOUTUBE</a></li>
+                <li><a href="#">DESCARGA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar...">
+            <button>
+                <i class="fas fa-search"></i>
+            </button>
+            <ul id="searchResults"></ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box" 
+            data-title="LOVE Live! Nijigasaki Gakuen School Idol Doukoukai" 
+            data-category="Anime" 
+            onclick='navigateToAnime(
+                "LOVE Live! Nijigasaki Gakuen School Idol Doukoukai", 
+                "IMAGENES/LOVE LIVE NIJIGASAKI 1.jpg", 
+                "La historia se centra en los miembros del club de school idols en Nijigasaki, que trabajan juntos como ídols y su intento de evitar que el club sea abolido. A medida que avanza la historia, más chicas comienzan a participar en las actividades del club..", 
+                [
+                    {"title":"Episodio 1", "url":"https://drive.google.com/file/d/1czOJwPzFMOZUO6J0Fy8GieXO3r2SUpT5/preview"}, 
+                    {"title":"Episodio 2", "url":"https://drive.google.com/file/d/10-hEnN-f2a3R6399CX60_gIZIWvljnIJ/preview"},
+                    {"title":"Episodio 3", "url":"https://drive.google.com/file/d/102Od1PrgjNyQtyxIfVUMjiEoO1wgVnyE/preview"},
+                    {"title":"Episodio 4", "url":"URL_DEL_EPISODIO_4"},
+                    {"title":"Episodio 5", "url":"URL_DEL_EPISODIO_4"},
+                    {"title":"Episodio 6", "url":"URL_DEL_EPISODIO_4"},
+                    {"title":"Episodio 7", "url":"URL_DEL_EPISODIO_4"},
+                    {"title":"Episodio 8", "url":"URL_DEL_EPISODIO_4"},
+                    {"title":"Episodio 9", "url":"URL_DEL_EPISODIO_4"},
+                    {"title":"Episodio 10", "url":"URL_DEL_EPISODIO_4"},
+                    {"title":"Episodio 11", "url":"URL_DEL_EPISODIO_4"},
+                    {"title":"Episodio 12", "url":"URL_DEL_EPISODIO_4"},
+
+                ] 
+            )'>
+            <img src="IMAGENES/LOVE LIVE NIJIGASAKI 1.jpg" alt="Anime 1" class="anime-image">
+            <p class="anime-title">LOVE Live! Nijigasaki</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Hitori Gotou es una chica de preparatoria que empieza a aprender a tocar la guitarra porque sueña con estar en una banda, pero es tan tímida que no ha hecho ni una sola amiga. Sin embargo, su sueño podría hacerse realidad después de conocer a Nijika Ijichi, una chica que toca la batería y está buscando un nuevo guitarrista para su banda.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        <div class="box" 
+        data-title="BOCHI THE ROCK" 
+        data-category="Anime" 
+        onclick='navigateToAnime(
+            "BOCHI THE ROCK", 
+            "IMAGENES/BOCHI THE ROCK.jpg", 
+            "Izuku Midoriya, un joven sin poderes, sueña con convertirse en el héroe más grande.", 
+            [
+                {"title":"EPISODIO 1", "url":"URL_DEL_EPISODIO_1"},
+                {"title":"EPISODIO 2", "url":"URL_DEL_EPISODIO_2"},
+                {"title":"EPISODIO 3", "url":"URL_DEL_EPISODIO_3"}
+            ]
+        )'>
+        <img src="IMAGENES/BOCHI THE ROCK.jpg" alt="BOCHI the ROCK" class="anime-image">
+        <p class="anime-title">bochi the ROCK</p>
+        </div>
+
+        
+        
+        
+    </div>
+
+    </div>
+
+    <div class="pagination">
+        <button id="prevPage">Anterior</button>
+        <div class="pages"></div>
+        <button id="nextPage">Siguiente</button>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 Tu Empresa. Todos los derechos reservados.
+    </div>
+
+    <!-- Librerías de Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="NAVEGACION ANIME.js"></script> 
+    <script src="BUSCADOR FUNCION.js"></script> 
+    <script src="PAGINACION.JS"></script>
+    <script src="REPETICION.js"></script>
+</body>
+</html>

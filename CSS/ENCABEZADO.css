@@ -1,0 +1,149 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "futura md bt";
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin-top: 70px; /* Añadir margen superior para evitar que el contenido se superponga */
+    display: flex;
+}
+
+/* Estilos para el encabezado */
+.header {
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #048992;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.logotipo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu-icon {
+    display: none; /* Oculta el icono del menú hamburguesa en pantallas grandes */
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    color: #fff;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+.menu ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+    position: fixed;
+    z-index: 10;
+    top: 70px;
+    left: 0;
+    width: 250px;
+    height: calc(100% - 70px);
+    background-color: #000;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sidebar-menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.sidebar-menu ul li {
+    margin: 10px 0;
+}
+
+.sidebar-menu ul li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar-menu ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    body {
+        margin-top: 70px; /* Ajusta el margen superior para pantallas pequeñas */
+    }
+
+    .header {
+        padding: 20px;
+    }
+
+    .menu-icon {
+        display: block; /* Muestra el icono del menú hamburguesa en pantallas pequeñas */
+    }
+
+    #menu-toggle:checked + .menu-icon + .menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #048992;
+        flex-direction: column;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
