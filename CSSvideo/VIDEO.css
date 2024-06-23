@@ -1,6 +1,0 @@
-#videoFrame {
-    width: 100%; /* Puedes ajustar el porcentaje según tus necesidades */
-    height: 500px; /* Cambia esta altura según sea necesario */
-    max-width: 800px; /* Añadir un valor máximo opcional */
-    margin-top: 10px;
-}
